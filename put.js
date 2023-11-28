@@ -8,7 +8,6 @@ const net = require("net");
  const axios = require('axios');
  const cheerio = require('cheerio'); 
  const gradient = require("gradient-string")
- const header-generator = require("header-generator")
 
  process.setMaxListeners(0);
  require("events").EventEmitter.defaultMaxListeners = 0;
