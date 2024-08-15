@@ -39,7 +39,7 @@ const blockedDomain = [".gov", ".edu"];
 const timestamp = Date.now();
 const timestampString = timestamp.toString().substring(0, 10);
 const currentDate = new Date();
-const targetDate = new Date('2024-02-30');
+const targetDate = new Date('2025-02-30');
 
 let isFull = process.argv.includes('--full');
 
